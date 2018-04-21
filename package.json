@@ -1,0 +1,19 @@
+{
+  "name": "iamstarwars",
+  "version": "1.0.0",
+  "description": "A website which provides details about people associated with starwars",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SyedHamdanSher/IAmStarWars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SyedHamdanSher/IAmStarWars/issues"
+  },
+  "homepage": "https://github.com/SyedHamdanSher/IAmStarWars#readme",
+}

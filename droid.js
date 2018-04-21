@@ -13,7 +13,12 @@ const extractData = (promise) => Promise.resolve(promise).then(value => useData(
 extractData(window.fetchStarship());
 
 const useData = (value) => {
-	people=value;
+	people=value.filter(person => person.gender == 'n/a');
+
+	people=people.map(person => {
+		person.gender = 'Droid';
+		return person; 
+	})
 	createPage(people);
 }
 
